@@ -16665,3 +16665,9 @@ ul.list {
 .ltn__testimoni-info p.f-s-14.text-in-dark i {
   margin-right: 10px;
 }
+.ltn__testimonial-item.ltn__testimonial-item-4 .btn-wrapper.animated a {
+  padding: 10px 25px !important;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
+}

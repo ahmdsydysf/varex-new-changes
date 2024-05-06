@@ -11546,9 +11546,9 @@ blockquote::before {
   z-index: 2;
 }
 .ltn__testimonial-item-4 .ltn__testimoni-img {
-  max-width: 160px;
+  max-width: 190px;
   float: left;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 .ltn__testimonial-item-4 .ltn__testimoni-img img {
   border-radius: 0;
@@ -16017,7 +16017,7 @@ footer .section-bg-2 {
   position: absolute;
   content: "";
   height: 100%;
-  width: 60px;
+  width: 40px;
   background-image: linear-gradient(
     90deg,
     rgba(199, 179, 212, 0.5933706246170343) 0%,
@@ -16031,12 +16031,12 @@ footer .section-bg-2 {
   -moz-transform: skew(-45deg);
   -ms-transform: skew(-45deg);
   -o-transform: skew(-45deg);
-  left: -450px;
-  transition: all 1.5s;
-  -webkit-transition: all 1.5s;
-  -moz-transition: all 1.5s;
-  -ms-transition: all 1.5s;
-  -o-transition: all 1.5s;
+  left: -100px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
   z-index: 25;
 }
 .btn-wrapper .theme-btn-1:hover::before {
@@ -16382,8 +16382,12 @@ footer .section-bg-2 {
   position: relative;
   background-image: url(../img/bg/product-gray.png);
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 11px;
   background-position: bottom right;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
 }
 
 .scnd-section.ltn__blog-area .ltn__testimonial-item .ltn__testimoni-info {
@@ -16394,7 +16398,7 @@ footer .section-bg-2 {
 .scnd-section.ltn__blog-area .ltn__testimonial-item .ltn__testimoni-img {
   position: absolute;
   top: 25%;
-  right: -40px;
+  right: 0;
   z-index: 22;
 }
 
@@ -16629,4 +16633,35 @@ ul.list {
 }
 .fa-arrow-left::before {
   content: "\f053";
+}
+.text-in-dark {
+  color: #184363 !important;
+}
+.text-in-green {
+  color: #39cb74 !important;
+}
+.f-s-16 {
+  font-size: 16px !important;
+}
+.f-s-15 {
+  font-size: 15px !important;
+}
+.f-s-14 {
+  font-size: 14px !important;
+}
+.f-s-13 {
+  font-size: 13px !important;
+}
+.f-s-10 {
+  font-size: 7px !important;
+}
+.f-s-11-5 {
+  font-size: 11.5px !important;
+}
+.ltn__testimoni-info p.f-s-14.text-in-dark {
+  display: flex;
+  align-items: center;
+}
+.ltn__testimoni-info p.f-s-14.text-in-dark i {
+  margin-right: 10px;
 }

@@ -6255,7 +6255,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Sticky Background Secondary */
 .sticky-active.ltn__sticky-bg-secondary {
-  background-color: var(--ltn__secondary-color);
+  background-color: #fff;
 }
 .sticky-active.ltn__sticky-bg-secondary .ltn__main-menu > ul > li > a,
 .sticky-active.ltn__sticky-bg-secondary .header-wishlist a,
@@ -16010,13 +16010,43 @@ footer .section-bg-2 {
   background-color: var(--ltn__primary-color);
   color: black;
   border-radius: 13px;
+  position: relative;
+  overflow: hidden;
 }
-
-.btn-wrapper .theme-btn-1:hover {
+.btn-wrapper .theme-btn-1::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 60px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(199, 179, 212, 0.5933706246170343) 0%,
+    rgba(233, 233, 233, 1) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  top: 0;
+  bottom: 0;
+  transform: skew(-45deg);
+  -webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -ms-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+  left: -450px;
+  transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -ms-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  z-index: 25;
+}
+.btn-wrapper .theme-btn-1:hover::before {
+  left: 450px;
+}
+/* .btn-wrapper .theme-btn-1:hover {
   background-color: var(--ltn__secondary-color-2);
   color: white;
   border-radius: 13px;
-}
+} */
 .ltn__slider-area
   .ltn__slide-item
   .ltn__slide-item-inner
@@ -16570,4 +16600,33 @@ footer .section-bg-2 {
 }
 ul.list {
   font-size: 12px;
+}
+.ltn__slide-one-active.slick-slide-arrow-1 .slick-next.slick-arrow {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.ltn__slide-one-active.slick-slide-arrow-1 .slick-prev.slick-arrow {
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.slick-slide-arrow-1 .slick-arrow {
+  line-height: 40px;
+}
+
+.fa-arrow-right::before {
+  content: "\f054";
+  font-weight: lighter;
+}
+.fa-arrow-left::before {
+  content: "\f053";
 }

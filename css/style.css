@@ -16393,11 +16393,12 @@ footer .section-bg-2 {
 }
 .ltn__call-to-action-area.ltn__call-to-action-4 {
   background-image: url("../img/bg/Poster(1).png");
-  background-position: center top;
-  background-size: contain;
+  background-position: left top;
+  background-size: cover;
   overflow-y: visible;
   min-height: 455px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .ltn__call-to-action-area.ltn__call-to-action-4
@@ -16558,6 +16559,11 @@ footer .section-bg-2 {
     font-size: 14px !important;
   }
 }
+@media (max-width: 850px) {
+  .ltn__call-to-action-area.ltn__call-to-action-4 {
+    background-position: right bottom !important;
+  }
+}
 .top-bar-right.text-right.text-end .ltn__top-bar-menu ul li {
   margin-right: 0;
 }
@@ -16626,6 +16632,9 @@ ul.list {
 }
 .f-w-r {
   font-weight: 400;
+}
+.text-clr-wh {
+  color: #fff !important;
 }
 .ltn__testimoni-info p.f-s-14.text-in-dark {
   display: flex;

@@ -1378,6 +1378,7 @@ ul {
   transition: all 0.3s ease 0s;
   -webkit-box-shadow: var(--ltn__box-shadow-3);
   box-shadow: var(--ltn__box-shadow-3);
+  border: 1px solid white;
 }
 #scrollUp i {
   line-height: 40px;
@@ -1387,7 +1388,7 @@ ul {
 }
 #scrollUp:hover {
   background-color: var(--ltn__secondary-color);
-  color: var(--ltn__secondary-color-2);
+  color: white;
 }
 
 /* ----------------------------------------------------
@@ -16810,8 +16811,9 @@ ul.list {
   font-weight: bold;
   color: #fff;
   transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  text-decoration: underline;
+}
+footer .footer-address p a:hover {
+  color: white !important;
+  font-weight: bold;
 }

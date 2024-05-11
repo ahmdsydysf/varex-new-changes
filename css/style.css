@@ -16813,7 +16813,7 @@ footer .footer-address p a:hover {
   color: white !important;
   font-weight: bold;
 }
-body {
+body,html {
   overflow-x: hidden !important;
 }
 @media (max-width: 850px) {

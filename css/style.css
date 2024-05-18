@@ -16875,7 +16875,7 @@ html {
     text-align: left;
   }
 }
-@media (min-width: 320px) and (max-width: 455px) {
+@media (min-width: 318px) and (max-width: 455px) {
   /* .slide-item-info-mob .slid-itm-img img{
     width: 320px;
     height: 360px;

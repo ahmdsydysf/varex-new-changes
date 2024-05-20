@@ -929,7 +929,7 @@
           settings: {
             arrows: false,
             dots: true,
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },

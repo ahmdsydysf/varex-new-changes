@@ -5993,7 +5993,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .header-search-2 button span i {
   color: #000;
 }
-
+.header-search-2 button:hover span i {
+  color: #fff;
+}
 /* ----------------------------------------
     Currency Menu
 ---------------------------------------- */
@@ -16436,6 +16438,7 @@ footer .section-bg-2 {
   background-color: #39cb74;
   border-radius: 25px;
   color: white;
+  font-size: 25px;
 }
 
 .btn-for-whatsapp:hover {
@@ -16820,7 +16823,7 @@ html {
 }
 @media (max-width: 850px) {
   .ltn__call-to-action-area.ltn__call-to-action-4 {
-    background-position: right bottom !important;
+    background-position: -75px 0px !important;
   }
   .ltn__call-to-action-area.ltn__call-to-action-4
     .call-to-action-inner.call-to-action-inner-4 {
@@ -16832,8 +16835,21 @@ html {
     margin-left: -20px;
   }
   .scnd-section.ltn__blog-area .ltn__testimonial-item .ltn__testimoni-img {
-    width: 55%;
+    width: 100%;
     right: -20px;
+  }
+  /* .ltn__call-to-action-area.ltn__call-to-action-4
+    .call-to-action-inner.call-to-action-inner-4 {
+    top: 84% !important;
+  } */
+  .ltn__call-to-action-area.ltn__call-to-action-4
+    .call-to-action-inner.call-to-action-inner-4
+    .btn-wrapper
+    .btn-for-whatsapp {
+    margin-top: 265px;
+  }
+  .ltn__img-slider-area.ltn__img-slider-2 {
+    margin-top: 50px;
   }
 }
 .slid-logo-img {

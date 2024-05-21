@@ -16438,7 +16438,7 @@ footer .section-bg-2 {
   background-color: #39cb74;
   border-radius: 25px;
   color: white;
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 
 .btn-for-whatsapp:hover {
@@ -16823,11 +16823,20 @@ html {
 }
 @media (max-width: 850px) {
   .ltn__call-to-action-area.ltn__call-to-action-4 {
-    background-position: -75px 0px !important;
+    background-position: 97% 0 !important;
   }
   .ltn__call-to-action-area.ltn__call-to-action-4
     .call-to-action-inner.call-to-action-inner-4 {
     top: 44% !important ;
+  }
+  .footer-widget {
+    margin-bottom: 8px !important;
+  }
+  .footer-menu {
+    margin-top: 15px !important;
+  }
+  .footer-address{
+    margin-bottom: 35px;
   }
 }
 @media (max-width: 465px) {

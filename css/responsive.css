@@ -90,8 +90,8 @@
 }
 @media only screen and (min-width: 564px) {
   .ltn__product-grid-view .ltn__product-item.ltn__product-item-3 {
-    height: 436px;
-    width: 270px;
+    width: 100%;
+    height: 390px;
   }
 
   .ltn__product-grid-view

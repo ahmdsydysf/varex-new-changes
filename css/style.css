@@ -17090,3 +17090,12 @@ html {
     padding-bottom: 20px;
   }
 }
+.logo-catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-catalog .cst-btn li {
+  width: fit-content;
+}

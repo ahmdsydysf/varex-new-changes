@@ -523,7 +523,7 @@
       dots: false,
       infinite: true,
       speed: 300,
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
       prevArrow:
         '<a class="slick-prev"><i class="fas fa-arrow-left" alt="Arrow Icon"></i></a>',

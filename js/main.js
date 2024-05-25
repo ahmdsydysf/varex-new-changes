@@ -285,11 +285,11 @@
       asNavFor: ".ltn__shop-details-small-img",
     });
     $(".ltn__shop-details-small-img").slick({
-      slidesToShow: 4,
+      slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: ".ltn__shop-details-large-img",
       dots: false,
-      arrows: true,
+      arrows: false,
       focusOnSelect: true,
       prevArrow:
         '<a class="slick-prev"><i class="fas fa-arrow-left" alt="Arrow Icon"></i></a>',
@@ -299,7 +299,7 @@
         {
           breakpoint: 992,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
@@ -313,7 +313,7 @@
         {
           breakpoint: 580,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },

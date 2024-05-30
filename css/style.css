@@ -17573,3 +17573,17 @@ span.video-title {
   .product-details-btn:hover::before {
   left: 700px;
 }
+#distribute_page h2 span.first-word {
+  color: var(--ltn__secondary-color-2);
+}
+
+/* ------------------------------------ */
+/* ------------------------------------ */
+
+/* ------Certificate_page custom style------- */
+
+/* ------------------------------------ */
+/* ------------------------------------ */
+#Certificate_page .ltn__gallery-item-img::before {
+  background-color: transparent;
+}

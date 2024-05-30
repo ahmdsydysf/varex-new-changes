@@ -357,55 +357,7 @@
         </div>
       </div>
     </div>
-    <style>
-      #distribute_page .main-grid-container {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8, 1fr);
-      }
 
-      #distribute_page .main-grid-container .bg-img {
-        grid-area: 1 / 3 / 5 / 9;
-      }
-
-      #distribute_page .main-grid-container .contnet-info {
-        grid-area: 2 / 1 / 8 / 6;
-        height: fit-content;
-      }
-
-      #distribute_page .main-grid-container .catalog-section {
-        grid-area: 6 / 6 / 9 / 9;
-      }
-
-      #distribute_page .main-grid-container .contnet-info {
-        background-color: white;
-        padding: 30px;
-        border-radius: 15px;
-        -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
-        -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);
-      }
-
-      #distribute_page .main-grid-container .contnet-info p,
-      #distribute_page .main-grid-container .contnet-info ol li {
-        font-size: 13px;
-      }
-
-      @media (min-width: 820px) and (max-width: 1100px) {
-        #distribute_page .main-grid-container .bg-img {
-          grid-area: 1 / 2 / 5 / 9;
-        }
-
-        #distribute_page .main-grid-container .contnet-info {
-          grid-area: 2 / 1 / 7 / 8;
-          height: fit-content;
-        }
-
-        #distribute_page .main-grid-container .catalog-section {
-          grid-area: 7 / 3 / 9 / 6;
-        }
-      }
-    </style>
     <!-- PRODUCT DETAILS AREA START -->
     <div class="ltn__product-area ltn__product-gutter pt-80" id="distribute_page">
       <div class="container-lg">
@@ -456,6 +408,48 @@
                   <a class="p-0" download="#">Download Katalog</a>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-distributer-form pb-100">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 order-2 order-lg-1 form-inputs">
+              <form id="contact-form" action="" method="post">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="input-item input-item-name ltn__custom-icon">
+                      <label for="exampleFormControlInput1" class="form-label">Your Company Name</label>
+                      <input type="text" name="name">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-item input-item-name ltn__custom-icon">
+                      <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                      <input type="text" name="name">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-item input-item-name ltn__custom-icon">
+                      <label for="exampleFormControlInput1" class="form-label">Telephone Number/WhatsApp</label>
+                      <input type="text" name="name">
+                    </div>
+                  </div>
+                  <div class="input-item input-item-textarea ltn__custom-icon">
+                    <label for="exampleFormControlInput1" class="form-label">Your Massage</label>
+                    <textarea name="message"></textarea>
+                  </div>
+                  <!-- <p><label class="input-info-save mb-0">Please fill in spaces marked with *</label></p> -->
+                  <div class="btn-wrapper mt-0 col-12">
+                    <button class="btn theme-btn-1 form-contact-btn w-100" type="submit">submit</button>
+                  </div>
+                </div>
+
+                <p class="form-messege mb-0 mt-20"></p>
+              </form>
+            </div>
+            <div
+              class="col-12 col-lg-6 order1 order-lg-2 dis-img d-flex justify-content-center  justify-content-lg-end">
+              <img src="img/bg/Slice 3 (1) 1.png" class="h-100" alt="">
             </div>
           </div>
         </div>

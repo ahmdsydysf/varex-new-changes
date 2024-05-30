@@ -17423,7 +17423,7 @@ span.video-title {
   min-width: 27px;
   min-height: 27px;
   max-width: 35px;
-    max-height: 35px;
+  max-height: 35px;
 }
 
 #contact_page .contact-icon {
@@ -17432,6 +17432,7 @@ span.video-title {
 
 #contact_page .contact-data p {
   margin-bottom: 2px;
+  color: #184363;
 }
 
 #contact_page .contact-data h5 {

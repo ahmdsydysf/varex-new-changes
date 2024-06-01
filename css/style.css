@@ -16501,9 +16501,9 @@ footer .section-bg-2 {
   margin-right: 0;
 }
 
-.top-bar-right.text-right.text-end .ltn__top-bar-menu ul li:last-child {
+/* .top-bar-right.text-right.text-end .ltn__top-bar-menu ul li:last-child {
   margin-left: 5px;
-}
+} */
 ul.list {
   font-size: 12px;
 }
@@ -16586,6 +16586,12 @@ ul.list {
 }
 .f-s-35 {
   font-size: 35px !important;
+}
+.f-s-36 {
+  font-size: 36px !important;
+}
+.f-s-45 {
+  font-size: 45px !important;
 }
 .f-s-25 {
   font-size: 25px !important;
@@ -17587,4 +17593,103 @@ span.video-title {
 
 #Certificate_page .ltn__gallery-item-img::before {
   background-color: transparent;
+}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+/* ------  About_page  custom style   ------- */
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+.f-s-96 {
+  font-size: 96px !important;
+}
+.f-s-24 {
+  font-size: 24px !important;
+}
+#about_us_page .main-bg-img-container {
+  position: relative;
+}
+
+#about_us_page .main-bg-img-container .main-img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#about_us_page .main-bg-img-container .main-img-content h3,
+#about_us_page .main-bg-img-container .main-img-content p {
+  color: white;
+}
+#about_us_page .section-our-mission h3.main-title {
+  position: relative;
+}
+
+/* #about_us_page .section-our-mission h3.main-title::after {
+  content: "";
+  background: url("../img/icons/header-under-title.png") no-repeat;
+  bottom: -58.5px;
+  right: 50%;
+  width: 240px;
+  height: 35px;
+  position: absolute;
+  display: inline-block;
+  transform: translateX(50%);
+} */
+#about_us_page .section-our-mission h3.main-title img {
+  position: absolute;
+  bottom: -18.5px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+@media (min-width: 850px) and (max-width: 1003px) {
+  #about_us_page .section-our-mission h3.main-title {
+    font-size: 30px !important;
+  }
+  #about_us_page .section-our-mission h3.main-title img {
+    width: 22%;
+  }
+  #about_us_page .main-img-content h3 {
+    font-size: 70px !important;
+  }
+  #about_us_page .main-img-content p {
+    font-size: 19px !important;
+  }
+}
+@media (min-width: 550px) and (max-width: 850px) {
+  #about_us_page .section-our-mission h3.main-title {
+    font-size: 24px !important;
+  }
+  #about_us_page .section-our-mission h3.main-title img {
+    width: 24%;
+  }
+  #about_us_page .main-img-content h3 {
+    font-size: 45px !important;
+  }
+  #about_us_page .main-img-content p {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 319px) and (max-width: 550px) {
+  #about_us_page .image-bg-cover {
+    height: 39vh;
+  }
+  #about_us_page .main-img-content {
+    width: 70%;
+  }
+  #about_us_page .section-our-mission h3.main-title img {
+    width: 42%;
+  }
+  #about_us_page .section-our-mission h3.main-title {
+    font-size: 30px !important;
+  }
+  #about_us_page .main-img-content h3 {
+    font-size: 40px !important;
+  }
+  #about_us_page .main-img-content p {
+    font-size: 16px !important;
+  }
 }

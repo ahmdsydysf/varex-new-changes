@@ -17641,7 +17641,7 @@ span.video-title {
 } */
 #about_us_page .section-our-mission h3.main-title img {
   position: absolute;
-  bottom: -18.5px;
+  bottom: 32px;
   left: 50%;
   transform: translate(-50%, 50%);
 }
@@ -17691,5 +17691,653 @@ span.video-title {
   }
   #about_us_page .main-img-content p {
     font-size: 16px !important;
+  }
+}
+.w-fit-content {
+  width: fit-content !important;
+}
+
+#about_us_page .section-our-mission .special-link {
+  background-color: #f3f25b;
+  border-color: #f3f25b;
+}
+#about_us_page .section-our-mission .title-head-content {
+  position: relative;
+}
+
+#about_us_page .section-our-mission .title-head-content::after {
+  content: "";
+  width: 40%;
+  height: 4px;
+  background-color: #f3f25b;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+}
+
+#about_us_page .section-our-mission .main-img-group {
+  position: relative;
+  height: 100%;
+  min-height: 350px;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-bg,
+#about_us_page .section-our-mission .main-img-group .item-img-hash,
+#about_us_page .section-our-mission .main-img-group .item-img-star,
+#about_us_page .section-our-mission .main-img-group .item-img-main,
+#about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+  position: absolute;
+  max-height: 100%;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-main {
+  right: 0;
+}
+#about_us_page .section-our-mission .main-img-group .item-img-main {
+  right: 0;
+  top: 0;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-bg {
+  right: 25px;
+  top: -13px;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+  right: 0;
+  bottom: 0;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-star {
+  right: 46%;
+}
+
+#about_us_page .section-our-mission .main-img-group .item-img-hash {
+  right: 10%;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    right: 63%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 15%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    right: 79%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 16%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 59px;
+    bottom: 41px;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    right: 79%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 16%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 767px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 25%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 30%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 25%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 25%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 680px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 20%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 27%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 17%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 20%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 510px) and (max-width: 550px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 15%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 22%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 10%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 20%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 510px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 10%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 19%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 5%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 8%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 20%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 430px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 7%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 14%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 3%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 5%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 20%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 415px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-bg {
+    right: 0%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-hash {
+    right: 0%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-star {
+    left: 0%;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-main {
+    right: 0%;
+    top: 0;
+  }
+
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 20%;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+  #about_us_page .section-our-mission .main-img-group .item-img-zegzag {
+    right: 20%;
+    bottom: 20px;
+  }
+}
+
+#about_us_page
+  .section-our-mission
+  .our-mission-p2
+  .main-img-group
+  .item-img-main {
+  left: 0;
+  top: 0;
+}
+
+#about_us_page
+  .section-our-mission
+  .our-mission-p2
+  .main-img-group
+  .item-img-bg {
+  left: 25px;
+  top: -13px;
+}
+
+#about_us_page
+  .section-our-mission
+  .our-mission-p2
+  .main-img-group
+  .item-img-zegzag {
+  left: 0;
+  bottom: 0;
+}
+
+#about_us_page
+  .section-our-mission
+  .our-mission-p2
+  .main-img-group
+  .item-img-star {
+  left: 46%;
+}
+
+#about_us_page
+  .section-our-mission
+  .our-mission-p2
+  .main-img-group
+  .item-img-hash {
+  left: 10%;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 63%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 15%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 79%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 16%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 59px;
+    bottom: 41px;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 79%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 16%;
+  }
+}
+
+@media (min-width: 680px) and (max-width: 767px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 25%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 30%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 65%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 25%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 680px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 20%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 27%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 65%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 20%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 510px) and (max-width: 550px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 15%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 22%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 77%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 20%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 30%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 510px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 10%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 19%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 80%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 8%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 20%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 430px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 7%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 14%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 83%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 5%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 20%;
+    bottom: -20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 415px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-bg {
+    left: 0%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-hash {
+    left: 0%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-star {
+    left: 81%;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-main {
+    left: 0%;
+    top: 0;
+  }
+
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 20%;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 350px) {
+  #about_us_page
+    .section-our-mission
+    .our-mission-p2
+    .main-img-group
+    .item-img-zegzag {
+    left: 20%;
+    bottom: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 608px) {
+
+  #about_us_page .section-our-mission .our-mission-p1 h3,
+  #about_us_page .section-our-mission .our-mission-p2 h3 {
+    font-size: 25px !important;
   }
 }

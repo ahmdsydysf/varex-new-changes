@@ -18423,3 +18423,8 @@ span.video-title {
     grid-area: 1 / 1 / 10 / 10;
   }
 }
+
+#about_us_page .ltn__faq-inner-2 .card .ltn__card-title::before {
+  background-color: #18426399;
+  color: white;
+}

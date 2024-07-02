@@ -19,6 +19,40 @@
   <link rel="stylesheet" href="css/style.css" />
   <!-- Responsive css -->
   <link rel="stylesheet" href="css/responsive.css" />
+
+  <style>
+    .badge-shape {
+      position: absolute;
+      top: 0;
+      right: -31px;
+      z-index: 502;
+      height: 0;
+      width: 0;
+      border-top: 16px solid transparent;
+      border-right: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      border-left: 16px solid rgb(240, 20, 81);
+    }
+
+    .product-badge li {
+      padding: 4px 12px;
+      border-radius: 0 !important;
+      position: relative;
+
+    }
+
+    .product-badge {
+      position: absolute;
+      top: -16px;
+      left: -1px;
+      z-index: 501 !important;
+    }
+
+    #allProductsPage .ltn__product-tab-content-inner .ltn__product-item.ltn__product-item-3 {
+      overflow: visible;
+      border-radius: 0 !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -376,7 +410,7 @@
     </div>
     <!-- BREADCRUMB AREA END -->
     <!-- PRODUCT DETAILS AREA START -->
-    <div class="ltn__product-area ltn__product-gutter">
+    <div class="ltn__product-area ltn__product-gutter" id="allProductsPage">
       <div class="container-lg">
         <div class="row">
           <div class="col-lg-9 order-lg-2 mb-120">
@@ -388,7 +422,10 @@
                   </div>
                 </li>
                 <li>
-                  <div class="ltn__grid-list-tab-menu ">
+                  <style>
+
+                  </style>
+                  <div class="ltn__grid-list-tab-menu">
                     <div class="nav">
                       <a class="active show" data-bs-toggle="tab" href="#liton_product_grid"><i
                           class="fas fa-th-large"></i></a>
@@ -398,6 +435,10 @@
                 </li>
               </ul>
             </div>
+
+            <style>
+
+            </style>
             <div class="tab-content">
               <div class="tab-pane fade active show" id="liton_product_grid">
                 <div class="ltn__product-tab-content-inner ltn__product-grid-view">
@@ -406,14 +447,19 @@
                     <div class="col-xl-4 col-sm-6 col-12">
                       <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                          <a href="single_product.html" class="home-img"><img src="img/product/Png.png" alt="#"></a>
-                          <div class="product-badge">
-                            <ul>
-                              <li class="sale-badge">Popular</li>
-                            </ul>
-                          </div>
+                          <a href="single_product.html" class="home-img">
+                            <img src="img/product/Png.png" alt="#" class="qr-front-face-product">
+                            <img src="img/product/qr/1.png" alt="#" class="qr-back-face-product">
+                          </a>
 
                         </div>
+                        <div class="product-badge">
+                          <ul>
+                            <li class="sale-badge">Popular</li>
+                            <div class="badge-shape"></div>
+                          </ul>
+                        </div>
+
                         <div class="product-info">
 
                           <h2 class="product-title"><a href="single_product.html" class="f-s-18 text-in-dark">
@@ -434,6 +480,8 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -457,6 +505,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -481,6 +530,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -505,6 +555,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -529,6 +580,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -553,6 +605,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -577,6 +630,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -600,6 +654,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -623,6 +678,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -646,6 +702,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
 
@@ -666,15 +723,14 @@
                         <div class="product-img">
                           <a href="single_product.html" class="f-s-18 text-in-dark" class="home-img"><img
                               src="img/product/Towel/V-44.jpg" alt="#"></a>
-                          <div class="product-badge">
-                            <ul>
-                              <li class="sale-badge">Popular</li>
-                            </ul>
-                          </div>
-
+                        </div>
+                        <div class="product-badge">
+                          <ul>
+                            <li class="sale-badge">Popular</li>
+                            <div class="badge-shape"></div>
+                          </ul>
                         </div>
                         <div class="product-info">
-
                           <h2 class="product-title"><a href="single_product.html" class="f-s-18 text-in-dark">Towel
                               Multi-Purpose High Density</a></h2>
                           <div class="product-price">
@@ -699,6 +755,7 @@
                           <div class="product-badge">
                             <ul>
                               <li class="sale-badge">Popular</li>
+                              <div class="badge-shape"></div>
                             </ul>
                           </div>
                         </div>
